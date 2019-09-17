@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lesson1</title>
+  <script>
+    var x1, y1, x2, y2, k, b, y, x;
+    x1 = 2;
+    y1 = 3
+    x2 = 4
+    y2 = 1
+
+    k = (y1 - y2) / (x1 - x2)
+    b = y2 - k*x2
+
+    alert('y =' + k + 'x = ' + b)
+
+  </script>
+</head>
+<body>
+
+</body>
+</html>
