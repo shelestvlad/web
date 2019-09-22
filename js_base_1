@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>lesson1</title>
+  <script>
+    // 1. По координатам двух точек, которые вводит пользователь, определить уравнение прямой, проходящей через эти точки.
+    // Общий вид уравнения: y = kx + b; где k = (y1 - y2) / (x1 - x2), b = y2 - k*x2.
+    var x1, y1, x2, y2, k, b, y, x;
+    x1 = 2;
+    y1 = 3
+    x2 = 4
+    y2 = 1
+
+    k = (y1 - y2) / (x1 - x2)
+    b = y2 - k*x2
+
+    alert('y =' + k + 'x = ' + b)
+
+    // 3. Объявите две переменные: admin и name. Запишите в name строку "Василий". Замените значение из name в admin. Выведите admin.
+    var admin, name;
+    admin = name;
+    name = 'Vasiliy';
+    console.log(name);
+    alert(name);
+
+    // 4. Получить от пользователя данные о пользователе: имя, фамилию, возраст. Обработать их и вывести на экран.
+    var name, lastname, years;
+    name = prompt('Введите Имя');
+    lastname = prompt('Введите фамилию');
+    years = prompt('Введите возраст');
+    alert('Name ' + name + ' Lastname ' + lastname + ' Years ' + years);
+
+
+    // 5. Запросите у пользователя его возраст, после чего выведите на экран модальное окно с вопросом: "Ваш возраст ...(введеное пользователем число) лет?". Далее в зависимости от выбора пользователя выводится модальное окно с информацией true или false.
+    var years, a;
+    years = 23;
+    a = true;
+    result = a == years;
+    prompt('Сколько вам лет');
+    alert('это ' + result);
+  
+
+
+  </script>
+</head>
+<body>
+
+
+</body>
+</html>
